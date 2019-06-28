@@ -1,0 +1,184 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+
+@font-face {
+
+    font-family: ‘myfont’;
+
+    src: url(../font/AftaSansThin-Regular.otf);
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+/***** RESET *****/
+.tikla{
+	width: 44%;
+	height: 16px;
+	float:left;
+	background-color: #ccc;
+	margin: 30px 0 10px 12px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	cursor: pointer;
+	font-family: ‘myfont’;
+	font-size: 18px;
+	border-left:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	border-radius: 15px 0 0 15px;
+
+}
+.tiklas{
+	width: 44%;
+	height: 16px;
+	float:left;
+	background-color: #ccc;
+	margin: 30px 0 0 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	cursor: pointer;
+	font-family: ‘myfont’;
+	font-size: 18px;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	border-radius: 0 15px 15px 0px;
+}
+.tikla:hover{
+ opacity: .8
+}
+.tiklas:hover{
+ opacity: .8
+}
+.kutu{ 
+	height:100px;
+ 	padding:5px;
+}
+#kutu1{ 
+	width: 30%;
+	height: 500px;
+	background: white;
+	border-radius: 50px; 
+}
+#kutu2{
+	width: 30%;
+	height: 350px;
+ 	display:none;
+ 	background: white;
+ 	border-radius: 50px; 
+}
+p{
+	font-family: ‘myfont’;
+	font-size: 18px;
+	text-align: left;
+	margin: 30px 0 0 0;
+}
+#yazi{
+	font-family: ‘myfont’;
+	font-size: 25px;
+}
+#yazil{
+	font-family: ‘myfont’;
+	font-size: 18px;
+	text-align: left;
+	margin: 0 0 0 0;
+}
+#kayit{
+	width: 30%;
+	height: 70px;
+	margin: 50px 0 0 0;
+	float: none;
+
+}
+#uye{
+	padding: 50px 0 0 0;
+	font-family: ‘myfont’;
+	font-size: 18px;
+}
+#uyes{
+	padding: 50px 0 0 0;
+	font-family: ‘myfont’;
+	font-size: 18px;
+}
+#buttonn{
+	width: 80%;
+	height: 40px;
+	float:left;
+	background-color: #ccc;
+	margin: 20px 0 0 -50px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	cursor: pointer;
+	font-family: ‘myfont’;
+	font-size: 18px;
+	box-shadow: 1px 1px 1px;
+	border-radius: 15px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=password]:focus {
+  background-color: lightblue;
+}
+input[type=text] {
+	width: 200px;
+	height: 35px;
+	border: none;
+	border: 1px solid #46a0c9;
+	font-family: ‘myfont’;
+}
+input[type=password] {
+	width: 200px;
+	height: 35px;
+  	border: none;
+  	border: 1px solid #46a0c9;
+  	font-family: ‘myfont’;
+}
+textarea{
+	width: 200px;
+	border: 1px solid #46a0c9;
+  	font-family: ‘myfont’;
+}
+#buttonn:hover{
+ opacity: .9
+}
+input[type=submit]{
+	width: 80%;
+	height: 40px;
+	float:left;
+	background-color: #06bae3;
+	margin: 20px 0 0 40px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	cursor: pointer;
+	font-family: ‘myfont’;
+	font-size: 18px;
+	border-radius: 15px;
+	color: white;
+}

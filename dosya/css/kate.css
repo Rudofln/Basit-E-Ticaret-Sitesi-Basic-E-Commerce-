@@ -1,0 +1,92 @@
+#urunler{ width:99%;
+height:100%;
+
+}
+#buzdolabi{
+	width:630px;
+	height: 611px;
+	background: url(../foto/buzhov.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+    margin: 1px 0 0 0;
+}
+#buzdolabi:hover{
+	opacity: 1;
+}
+#derin{width:630px;
+	height: 304px;
+	background: url(../foto/derhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+}
+#derin:hover{
+	opacity: 1;
+}
+#cam{width:630px;
+	height: 304px;
+	background: url(../foto/camhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+}
+#cam:hover{
+	opacity: 1;
+}
+#bul{width:630px;
+	height: 305px;
+	background: url(../foto/bulhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+
+}
+#bul:hover{
+	opacity: 1;
+}
+#kur{width:630px;
+	height: 305px;
+	background: url(../foto/kurhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+    margin: 1px 0 0 0;
+
+}
+#kur:hover{
+	opacity: 1;
+}
+#fir{width:630px;
+	height: 305px;
+	background: url(../foto/firhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+
+}
+#fir:hover{
+	opacity: 1;
+}
+#set{width:630px;
+	height: 305px;
+	background: url(../foto/setushover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+
+}
+#set:hover{
+	opacity: 1;
+}
+#mik{width:630px;
+	height: 305px;
+	background: url(../foto/mikhover.png);
+	opacity: .7;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+
+}
+#mik:hover{
+	opacity: 1;
+}

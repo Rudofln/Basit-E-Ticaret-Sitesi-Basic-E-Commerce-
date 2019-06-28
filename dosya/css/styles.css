@@ -1,0 +1,204 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+
+@font-face {
+
+    font-family: ‘myfont’;
+
+    src: url(../font/AftaSansThin-Regular.otf);
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+/***** RESET *****/
+
+#all{
+		width: %100;
+		height:%100;
+}
+
+#banner{
+	width: 100%;
+	height: 120px;
+	background: #4a8c99;
+}
+#litebanner{
+	width: 300px;
+	height: 70px;
+	background: #b57366;
+	font-family: ‘myfont’;
+	font-size: 15px;
+	padding: 50px 0 0 100px;
+}
+#litebanner a{
+	text-decoration: none;
+	color:white;
+
+}
+#orange{
+	width: 400px;
+	height: 765px;
+	background: #4a8c99;
+	font-family: ‘myfont’;
+	font-size: 15px;
+	color:grey;
+	padding: 50px 0 0 0px;
+	text-align: center;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+#uru{
+	margin: 0px 0 0 0;
+}
+#sl{
+	margin: 10px 0 0 0;
+}
+#ile{
+	margin: 10px 0 0 0;
+}
+li a:hover {
+    background-color: #b57366;
+    color: white;
+}
+#yazi{
+	width: 450px;
+	height: 30px;
+	margin: -70px 0 0 1000px;
+	font-family: ‘myfont’;
+	font-size: 20px;
+	color: white;
+}
+#genel{
+	width: 450px;
+	height: 30px;
+	margin: 150px 0 0 900px;
+	font-family: ‘myfont’;
+	font-size: 20px;
+}
+#genelc{
+	width: 700px;
+	height: 30px;
+	margin: 150px 0 0 800px;
+	font-family: ‘myfont’;
+	font-size: 20px;
+}
+#geneli{
+	width: 1300px;
+	height: 600px;
+	margin: 50px 0 0 500px;
+	font-family: ‘myfont’;
+	font-size: 20px;
+}
+#yazii{
+width: 0 0 0 2000px;
+}
+#admin{
+	width: 240px;
+	height:25px;
+	margin: 0 0 0 85%;
+	border: 1px solid #ccc;
+	font-family: ‘myfont’;
+	color: white;
+	padding: 5px 0 0 40px
+}
+#admin a{
+	text-decoration: none;
+	color: blue;
+}
+#admin a:hover{
+	color:black;
+}
+#row{
+width: 200px;
+height: 200px;
+float: left;
+margin:100px 0 0 450px;
+}
+#rowt{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 100px 0 0 100px;
+}
+#genelii a{
+	width: 30px;
+	height: 5px;
+	text-decoration: none;
+	color: black;
+	margin: 0 0 30px 0;
+}
+#genelii a:hover{
+	color: gray;
+}
+#kass{
+	width: 115px;
+	height: 30px;
+	padding: 0 0 0 35px;
+	margin: 0 0 30px 30px;
+	font-family: ‘myfont’;
+}
+#kasss{
+	width: 95px;
+	height: 30px;
+	padding: 0 0 0 55px;
+	margin: 0 0 30px 30px;
+	font-family: ‘myfont’;
+}
+#kassss{
+	width: 130px;
+	height: 30px;
+	padding: 0 0 0 20px;
+	margin: 0 0 30px 10px;
+	font-family: ‘myfont’;
+}
+#kassk{
+	width: 95px;
+	height: 30px;
+	padding: 0 0 0 55px;
+	margin: 0 0 30px 20px;
+	font-family: ‘myfont’;
+}
+#siralama{
+		width: 100px;
+		height: 20px;
+		margin: 25px auto 0 auto;
+		font-family: ‘myfont’;
+		color: black;
+
+}
+#siralama a{
+	text-decoration: none;
+	color:black;
+}
